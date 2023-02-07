@@ -9,6 +9,15 @@ class Quote:
         try:
             quote = get(self.url).json()["quotes"]
             return quote
+        except Exception as e:
+            return e
 
+    def img_quote(self):
+        return self.quote()
+
+    def text_quote(self):
+        try:
+            quote = get(self.url).json()["textQuotes"]
+            return quote
         except Exception as e:
             return e
