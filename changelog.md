@@ -11,11 +11,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 
 - `changelog.md` in `root directory`.
+- Changelog in `README.md`.
+- More information on installation/upgrade of `InspiroQuotes`.
 
 ### Changed
 
 - `img_link2 = Q.quote()` to `img_link2 = Q.img_quote()` in `README.md`.
-  
+
 ### Fixed
 
 - Function name of both `sauce` in `/example.py` to `img_quote` and `text_quote` respectively.
