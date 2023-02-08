@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - `changelog.md` in `root directory`.
 - Changelog in `README.md`.
 - More information on installation/upgrade of `InspiroQuotes`.
+- `LICENSE`
 
 ### Changed
 
